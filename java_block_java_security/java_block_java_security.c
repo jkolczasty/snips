@@ -9,7 +9,7 @@
  * 
  * COMPILE: gcc -fPIC -shared -o java_block_java_security.so -ldl java_block_java_security.c
  * 
- * USAGE: export LD_PRELOAD=./java_block_java_security.c;  javaws.itweb kvm.jnlp
+ * USAGE: export LD_PRELOAD=./java_block_java_security.so ;  javaws.itweb kvm.jnlp
  * 
  * LICENSE: MIT
  */
